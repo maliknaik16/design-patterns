@@ -66,8 +66,8 @@ class Singleton
     {
         if ($s1 === $s2) {
             return 'Both the instances of these classes are same.';
-        } else {
-            return 'Both the instances of these classes are same.';
         }
+
+        return 'Both the instances of these classes are different.';
     }
 }

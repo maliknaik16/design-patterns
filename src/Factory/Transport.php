@@ -12,11 +12,11 @@ namespace DesignPattern\Factory;
  */
 interface Transport
 {
-	/**
-	 * Contains the logic to deliver the goods. For this example, it will return
-	 * a simple string.
-	 *
-	 * @return string
-	 */
-	public function deliver() : string;
+    /**
+     * Contains the logic to deliver the goods. For this example, it will return
+     * a simple string.
+     *
+     * @return string
+     */
+    public function deliver() : string;
 }

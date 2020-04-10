@@ -12,12 +12,12 @@ namespace DesignPattern\Factory;
  */
 class SeaLogistics extends Logistics
 {
-	/**
-	 * {@inheritdoc}
-	 */
-	public function createTransport() : Transport
-	{
-		return new Ship;
-	}
+    /**
+     * {@inheritdoc}
+     */
+    public function createTransport() : Transport
+    {
+        return new Ship;
+    }
 
 }

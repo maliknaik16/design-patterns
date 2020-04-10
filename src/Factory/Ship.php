@@ -12,12 +12,12 @@ namespace DesignPattern\Factory;
  */
 class Ship implements Transport
 {
-	/**
-	 * {@inheritdoc}
-	 */
-	public function deliver() : string
-	{
-		return 'Deliver by sea in a container.';
-	}
+    /**
+     * {@inheritdoc}
+     */
+    public function deliver() : string
+    {
+        return 'Deliver by sea in a container.';
+    }
 
 }

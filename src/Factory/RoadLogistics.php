@@ -12,12 +12,12 @@ namespace DesignPattern\Factory;
  */
 class RoadLogistics extends Logistics
 {
-	/**
-	 * {@inheritdoc}
-	 */
-	public function createTransport() : Transport
-	{
-		return new Truck;
-	}
+    /**
+     * {@inheritdoc}
+     */
+    public function createTransport() : Transport
+    {
+        return new Truck;
+    }
 
 }

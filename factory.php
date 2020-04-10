@@ -6,7 +6,7 @@ use DesignPattern\Factory\Logistics;
 use DesignPattern\Factory\RoadLogistics;
 use DesignPattern\Factory\SeaLogistics;
 
-function printTransportDetails(Logistics $logistics)
+function printTransportDetails(Logistics $logistics) : void
 {
 	print $logistics->getTransportMessage() . "\n";
 }

@@ -12,12 +12,12 @@ namespace DesignPattern\Factory;
  */
 class Truck implements Transport
 {
-	/**
-	 * {@inheritdoc}
-	 */
-	public function deliver() : string
-	{
-		return 'Deliver by land in a box.';
-	}
+    /**
+     * {@inheritdoc}
+     */
+    public function deliver() : string
+    {
+        return 'Deliver by land in a box.';
+    }
 
 }

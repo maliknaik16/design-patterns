@@ -1,0 +1,24 @@
+{
+    "name": "maliknaik16/design-patterns",
+    "type": "project",
+    "description": "A repository with common design pattern in PHP.",
+    "keywords": ["design", "php", "pattern"],
+    "license": "GPL-3.0",
+    "homepage": "https://github.com/maliknaik16/design-patterns",
+    "authors": [
+        {
+            "name": "Malik Naik",
+            "email": "maliknaik16@gmail.com",
+            "homepage": "http://maliknaik.me/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DesignPattern\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

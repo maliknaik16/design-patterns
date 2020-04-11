@@ -76,3 +76,9 @@ function startApplication(string $os)
 }
 
 startApplication('Linux')->renderUI();
+
+
+// Outputs:
+//
+// Linux Button rendered
+// Linux progress bar rendered
